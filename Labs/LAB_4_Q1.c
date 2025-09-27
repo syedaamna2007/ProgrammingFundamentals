@@ -12,8 +12,14 @@ int main(){
 	if (age>=18 && i=='y'){
 		printf("You  are eligible for voting!");
 	}
+	else if (i!='y' && i!='n'){
+		printf("INVALID input for ID!! please answer y for yes and n for no. No other answers are acceptable.");
+	}
+	else if (age<0){
+		printf("INVALID input for age!!");
+	}
 	else {
-		printf("You are NOT eligible for voting!");
+		printf("Sorry! You are NOT eligible for voting!");
 	}
 	return 0;
 }
