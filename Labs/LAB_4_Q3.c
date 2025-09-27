@@ -23,9 +23,6 @@ int main(){
 	else if (marks>=50){
 		printf ("Your grade is E.");
 	}
-	else if (marks>=40){
-		printf ("Your grade is F.\nSorry! You FAILED the exam.");
-	}
 	else {
 		printf("Your grade is F.\nSorry! You FAILED the exam.");
 	}
