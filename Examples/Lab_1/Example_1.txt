@@ -1,0 +1,9 @@
+Example 1: Sequential Structure - Write pseudo-code for adding two numbers. 
+
+Start
+Variables A, B, sum 
+Read A 
+Read B 
+sum=A+B
+Output sum 
+End 
