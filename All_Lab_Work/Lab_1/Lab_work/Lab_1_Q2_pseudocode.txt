@@ -1,0 +1,30 @@
+start
+
+declare integer variables 'total = 0", "pass = 0","fail = 0" and float variable "average",
+
+for course = 1 TO 5
+    
+    Read score
+
+    Add score to total
+
+    If score >= 50 THEN
+        pass = pass + 1
+    Else
+        fail = fail + 1
+    end If
+end course
+
+ use average = total / 5
+
+ print "Average Score:"
+ print "Number of Passed Courses:"
+ print "Number of Failed Courses: "
+
+if average >= 50 then
+    print "Student is PASSING overall"
+else
+    print "Student is FAILING overall"
+end if
+
+exit

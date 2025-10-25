@@ -1,0 +1,10 @@
+start
+declare num, i and fact variables. (in int format) 
+print "Enter a number:"
+read num
+int fact = 1
+For i = 1 to num
+   fact = fact × i
+End For
+print "fact" (the value of fact)
+exit
