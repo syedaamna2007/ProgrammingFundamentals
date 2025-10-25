@@ -1,0 +1,10 @@
+Example 2: Iterative Structure - Write pseudo-code for finding sum of natural numbers 
+from 1 to 100. 
+
+Start
+Declare int Variables i, sum=0 
+For i=1 to 100
+sum += i 
+End for 
+Output sum 
+End/Exit
