@@ -1,0 +1,1 @@
+Note: These are the three exercise questions we completed during this lab with our previous lab instructor. The remaining questions from exercise 4 (which were not lab work) are uploaded in lab_exercise folder present in the main Lab_4 folder.
