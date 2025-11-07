@@ -1,0 +1,1 @@
+This folder contains all the lab work (including lab tasks, exercises, etc.). It is organized into separate folders for each lab (e.g., Lab_1), and each lab folder contains subfolders (such as lab_exercise) that include the code for the respective tasks.
