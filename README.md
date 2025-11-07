@@ -1,6 +1,6 @@
 **# PROGRAMMING FUNDAMENTALS ASSIGNMENTS in C language.**
 
-This repository contains my Programming Fundamentals assignments (Code In Place assignments + PF Lab exercises + Leetcode practise + complex computing project)
+This repository contains my Programming Fundamentals assignments (Code In Place assignments + All PF Labwork (in the folder All_Lab_Work) + Leetcode practise + complex computing project)
 
  **How to Run: (Dev-C++)**
 1. Open the file in Dev-C++.
