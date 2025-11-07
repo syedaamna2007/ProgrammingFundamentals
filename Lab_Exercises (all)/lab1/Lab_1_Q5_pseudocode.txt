@@ -1,6 +1,0 @@
-start
-declare h,w,d,l_i,l_f variables (float)
-l_i=(5*w)+(2*h)
-l_f=l_i/12
-print l_f as output like: joe needs l_f feet of 12-inch wide boards.
-exit
