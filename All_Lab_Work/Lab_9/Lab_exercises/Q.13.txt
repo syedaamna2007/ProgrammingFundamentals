@@ -1,0 +1,12 @@
+Consider the following program: 
+#include <stdio.h> 
+int main( void ) { 
+ int *p1;  
+ char *p2; 
+ p2=p1;  
+} 
+ Will the program compile successfully without warnings? Why and why not? 
+
+
+ANSWER:
+No it won't. It will show warning because p1 points to int and p2 points to char so they are incompatible.
