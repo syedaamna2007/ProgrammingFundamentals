@@ -1,20 +1,34 @@
 #include <stdio.h>
-#include <string.h>
 int main() {
-    char firstName[50], lastName[50], fullName[100];
-    int length;
-    printf("Enter your first name (donot use spaces)): ");
-    scanf("%s", firstName);
-    printf("Enter your last name (donot use spaces)): ");
-    scanf("%s", lastName);
+    char first[50], last[50], full[100];
+    int i = 0, j = 0, length = 0;
 
-    strcpy(fullName, firstName);  
-    strcat(fullName, " ");       
-    strcat(fullName, lastName);   
+    printf("Enter your first name: ");
+    scanf("%s", first);
 
-    length = strlen(fullName);  
+    printf("Enter your last name: ");
+    scanf("%s", last);
 
-    printf("\nFull name: %s\n", fullName);
-    printf("Number of characters (including space between first and last name): %d\n", length);
+    while (first[i] != '\0') {
+        full[i] = first[i];
+        i++;
+    }
+
+    full[i] = ' ';
+    i++;
+
+    while (last[j] != '\0') {
+        full[i] = last[j];
+        i++;
+        j++;
+		}
+        
+    full[i] = '\0';
+
+    for (length = 0; full[length] != '\0'; length++);
+
+    printf("\nFull name: %s\n", full);
+    printf("Total characters: %d\n", length);
+
     return 0;
 }
