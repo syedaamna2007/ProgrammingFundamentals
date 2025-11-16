@@ -1,9 +1,9 @@
 #include <stdio.h>
 float F, T, C;
 void displayinstructionToUser(){
-	printf("You need to provide :\n1. Initial house cost\n2. Annual Fuel cost\n3. Annual Tax rate.\nthis program will then tell you the total cost of this house for 5 years.");
+	printf("You need to provide :\n1. Initial house cost\n2. Annual Fuel cost\n3. Annual Tax rate.\nThis program will then tell you the total cost of this house for 5 years.");
 }
-float total(float F,float T, float C){
+float total(){
 	float fuel5yr= 5 * F;
 	float tax1yr= T * C;
 	float tax5yr= 5 * tax1yr;
@@ -11,15 +11,15 @@ float total(float F,float T, float C){
 	return fuel5yr + C + tax5yr;
 }
 int main(){
-	void displayIntructionsTouser();
+	displayinstructionToUser();
 	
-	printf("Enter your initial house cost: ");
+	printf("\nEnter your initial house cost: ");
 	scanf("%f", &C);
-	printf("Enter the annual tax rate: ");
-	scanf("%f", &T);
-	printf("Enter your annual fuel cost: ");
+	printf("\nEnter your annual fuel cost: ");
 	scanf("%f", &F);
+	printf("\nEnter the annual tax rate: ");
+	scanf("%f", &T);
 	
-	int Total= total(F, T, C);
-	printf("Total cost of your house after a 5 year period: %.2f",Total);
+	float Total= total(F, T, C);
+	printf("\nTotal cost of your house after a 5 year period: %.2f",Total);
 }
