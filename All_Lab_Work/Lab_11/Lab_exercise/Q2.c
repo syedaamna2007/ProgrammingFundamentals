@@ -3,9 +3,10 @@ char myFunction(){
 	float m, e;
 	printf("Enter your test marks: ");
 	scanf("%f", &m);
-	printf("Enter your years of experience: ");
-	scanf("%f", &e);
-	
+	if (m>=60){
+		printf("Enter your years of experience: ");
+		scanf("%f", &e);
+	}
 	if (m>=70 && e>=2){
 		return 'a';
 	}
