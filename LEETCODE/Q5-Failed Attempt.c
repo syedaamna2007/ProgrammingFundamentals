@@ -1,4 +1,4 @@
-//tried as much as i could understand.. There was an ERROR in my code's compatibility with LeetCode and therefore my submission FAILED..
+//tried as much as i could understand.. There was probably an ERROR in my code's compatibility with LeetCode and therefore my submission FAILED..
 #include <stdbool.h>
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     int arr[9][9];
